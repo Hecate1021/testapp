@@ -1,9 +1,5 @@
 import Echo from 'laravel-echo';
 
-import Pusher from 'pusher-js';
-
-// Make Pusher globally available
-window.Pusher = Pusher;
 
 window.Echo = new Echo({
     broadcaster: 'reverb',
